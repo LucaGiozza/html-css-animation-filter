@@ -37,3 +37,11 @@ transition: 4s;
 .ex-6-img:hover{
  filter: grayscale(100%);
 }
+.ex-7-img{
+    transition:3s;
+}
+.ex-7-img:hover{
+    filter: grayscale(50%);
+    filter: sepia(50%);
+    filter: saturate(40%);
+}
