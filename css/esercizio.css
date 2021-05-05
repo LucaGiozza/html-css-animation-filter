@@ -1,3 +1,5 @@
+
+/* inizio esercizio */
 .ex-1-square{
     transition: 3s;
 }
@@ -26,7 +28,7 @@ transition: 4s;
     transition: 2s;
 }
 .ex-5-square:hover{
-  scale: 2;
+   transform: scale(2);
 }
 .ex-5-square:active{
    scale: 0.4;
@@ -39,19 +41,14 @@ transition: 4s;
     transition:3s;
 }
 .ex-7-img:hover{
-    filter: grayscale(50%);
-    filter: sepia(70%);
-    /* filter: saturate(30%); */
+    filter: grayscale(50%)  sepia(70%);
 }
 .ex-8-img{
     transition: 3s;
 }
 .ex-8-img:hover{
     border-radius: 10%;
-    filter: grayscale(80%);
-    filter:sepia(80%);
-    filter:saturate(10%)
-
+    filter: grayscale(80%) saturate(10%) sepia(80%);
 }
 .ex-9-img{
     transition: 2s ;
@@ -59,11 +56,12 @@ transition: 4s;
 }
 .ex-9-img:hover{
     border-radius: 10%;
-    scale: 1.6;
-    filter: sepia(80%);
-    filter: grayscale(90%);
+    transform: scale(1.5);
+    filter: sepia(80%)  grayscale(90%);
+    
 
 }
+/* inizio esercizio 10 */
 .ex-10-icon {
     animation: rotazione 1s linear infinite;
 }
@@ -72,7 +70,7 @@ transition: 4s;
         transform: rotate(1turn);
     }
 }
-
+/* inizio esercizio 11 */
 .ex-11-icon:hover { 
     animation: giravolta 2s linear  ;
 }
@@ -87,6 +85,7 @@ transition: 4s;
         transform: rotate(0);
     }
 }
+/* inizio esercizio 12 */
 .ex-12-button:hover .ex-12-top-white {
     animation: bianco-move 2s linear;
 }
@@ -116,6 +115,7 @@ transition: 4s;
         right: 15%;
     }
 }
+/* inizio esercizio 13 */
 .ex-13-button:hover .ex-13-top-white{
     animation: movimento-da-sopra 2s linear;
 }
@@ -175,3 +175,4 @@ transition: 4s;
         right: 20%;
     }
 }
+/* fine esercizio */
