@@ -87,3 +87,33 @@ transition: 4s;
         transform: rotate(0);
     }
 }
+.ex-12-button:hover .ex-12-top-white {
+    animation: bianco-move 2s linear;
+}
+@keyframes bianco-move {
+    0% {
+        left: 15%;
+    }
+    50% {
+        left:calc(100% - 70px);
+    }
+    100% {
+        left: 10%;
+    }
+}
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: buttonmove 2s linear;
+}
+
+@keyframes buttonmove {
+    0% {
+        right: 20%;
+    }
+    50% {
+        right: calc(100% - 70px);
+    }
+    100% {
+        right: 15%;
+    }
+}
+.ex-
