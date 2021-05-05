@@ -26,12 +26,10 @@ transition: 4s;
     transition: 2s;
 }
 .ex-5-square:hover{
-    height: 100px;
-    width: 100px;
+  scale: 2;
 }
 .ex-5-square:active{
-    height: 20px;
-    width: 20px;
+   scale: 0.4;
 }
 
 .ex-6-img:hover{
@@ -42,6 +40,34 @@ transition: 4s;
 }
 .ex-7-img:hover{
     filter: grayscale(50%);
-    filter: sepia(50%);
-    filter: saturate(40%);
+    filter: sepia(70%);
+    /* filter: saturate(30%); */
 }
+.ex-8-img{
+    transition: 3s;
+}
+.ex-8-img:hover{
+    border-radius: 10%;
+    filter: grayscale(80%);
+    filter:sepia(80%);
+    filter:saturate(10%)
+
+}
+.ex-9-img{
+    transition: 2s ;
+
+}
+.ex-9-img:hover{
+    border-radius: 10%;
+    scale: 1.6;
+    filter: sepia(80%);
+    filter: grayscale(90%);
+
+}
+.ex-10-icon {
+    animation: rotazione 1s linear infinite;
+}
+@keyframes rotazione {
+    0% {
+        transform: rotate(1turn);
+    }
